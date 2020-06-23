@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --VeryDarkBlue: hsl(234, 12%, 34%);
+    --GrayishBlue: hsl(229, 6%, 66%);
+    --VeryLightGray: hsl(0, 0%, 98%);
+}
+
+body {
+    background-color: var(--VeryLightGray);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-areas:
+		"title"
+		"card";
+    row-gap: 25px;
+	justify-items: center;
+	text-align: center;
+    height: 100vh;
+}
+
+.bold {
+    color: var(--VeryDarkBlue);
+    font-weight: 600;
+}
+.title {
+    padding-top: 70px;
+}
+
+.catch-phrases {
+    font-size: 35px;
+}
+
+
+.title-description {
+    line-height: 28px;
+    padding: 1em;
+}
+
+.container{
+    margin: 2em;
+}
+
+.card {
+	text-align: left;
+	margin-bottom: 25px;
+	width: 300px;
+	height: 200px;
+	box-shadow: 2px 5px 8px #ccc5c5;
+	background-color: #ffff;
+}
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 360px;
+    height: 260px;
+    padding: 1em;
+    border-radius: 0.5rem;
+}
+.card:hover {
+    transform: scale(1.02);
+    transition: 0.1s;
+}
+
+.card h1,
+.card p {
+	margin-top: 10px;
+    margin-left: 15px;
+}
+
+.card p {
+    font-size: 15px;
+}
+.card h1 {
+    font-size: 20px;
+}
+
+.card-rows {
+    padding: 30px;
+}
+
+.card img {
+    margin-left: 240px;
+    margin-top: 20px;
+}
+
+.supervisor {
+    border-top: 4px solid var(--Cyan);
+    position: relative;
+    top: 27%;
+    /* left: 50%; */
+    
+}
+
+.teambuilder {
+	border-top: 4px solid var(--Red);
+}
+
+.karma {
+	border-top: 4px solid var(--Orange);
+}
+
+.calculator {
+    border-top: 4px solid var(--Blue);
+    position: relative;
+    top: 27%;
+}
+
+footer {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    text-align: center;
+}
