@@ -127,7 +127,7 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 825px) {
+@media (min-width: 375px) {
     .wrapper {
 		row-gap: 25px;
 	}
