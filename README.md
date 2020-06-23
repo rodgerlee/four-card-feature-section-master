@@ -23,3 +23,4 @@ Your users should:
 Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
 
 
+finished challenge --> https://rodgerlee.github.io/four-card-feature-section-master/.
