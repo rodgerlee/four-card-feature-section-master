@@ -127,7 +127,7 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 375px) {
+/* @media (max-width: 375px) {
     .wrapper {
 		row-gap: 25px;
 	}
@@ -145,4 +145,4 @@ footer {
 	.calculator {
 		margin-top: 110px;
 	}
-}
+} */
