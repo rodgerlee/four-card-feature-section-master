@@ -126,3 +126,23 @@ footer {
     position: fixed;
     text-align: center;
 }
+
+@media (min-width: 825px) {
+    .wrapper {
+		row-gap: 25px;
+	}
+	.header {
+		width: 40%;
+	}
+	.cards {
+		display: flex;
+	}
+	.row {
+		padding: 0px 50px;
+	}
+
+	.supervisor,
+	.calculator {
+		margin-top: 110px;
+	}
+}
