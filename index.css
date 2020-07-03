@@ -53,24 +53,21 @@ body {
     margin: 2em;
 }
 
-.card {
-	text-align: left;
-	margin-bottom: 25px;
-	width: 300px;
-	height: 200px;
-	box-shadow: 2px 5px 8px #ccc5c5;
-	background-color: #ffff;
-}
 .cards {
     display: flex;
 }
 
 .card {
-    width: 360px;
+	text-align: left;
+	margin-bottom: 25px;
+	width: 360px;
     height: 260px;
+	box-shadow: 2px 5px 8px #ccc5c5;
+    background-color: #ffff;
     padding: 1em;
     border-radius: 0.5rem;
 }
+
 .card:hover {
     transform: scale(1.02);
     transition: 0.1s;
@@ -106,6 +103,12 @@ body {
     
 }
 
+.calculator {
+    border-top: 4px solid var(--Blue);
+    position: relative;
+    top: 27%;
+}
+
 .teambuilder {
 	border-top: 4px solid var(--Red);
 }
@@ -114,11 +117,7 @@ body {
 	border-top: 4px solid var(--Orange);
 }
 
-.calculator {
-    border-top: 4px solid var(--Blue);
-    position: relative;
-    top: 27%;
-}
+
 
 footer {
     bottom: 0;
